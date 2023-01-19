@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Cicles</Author>
+  <LastAuthor>Cicles</LastAuthor>
+  <Created>2023-01-19T17:53:30Z</Created>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>2</Index>
+    <RGB>#CC0000</RGB>
+   </Color>
+   <Color>
+    <Index>9</Index>
+    <RGB>#006600</RGB>
+   </Color>
+   <Color>
+    <Index>11</Index>
+    <RGB>#996600</RGB>
+   </Color>
+   <Color>
+    <Index>39</Index>
+    <RGB>#FFCCCC</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Dll/>
+  </SupBook>
+  <WindowHeight>8190</WindowHeight>
+  <WindowWidth>16380</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>500</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s22">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s23">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s24">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s25">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s26">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s27">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s28">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s30">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Hoja1">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="16" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="60.75">
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Macro 1</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s24"/>
+    <Cell ss:Index="6" ss:StyleID="s25"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s24"/>
+    <Cell ss:Index="5" ss:StyleID="s26"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s27"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s28"
+     ss:Formula="=IF(RC[-1]&lt;10,&quot;És Menor&quot;,IF(RC[-1]&gt;10,&quot;És&gt;Major&quot;,&quot;Són iguals&quot;))"><Data
+      ss:Type="String">Són iguals</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:Index="6">
+    <Cell ss:Index="3" ss:StyleID="s21"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Macro 2</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:Index="6" ss:StyleID="s25"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s24"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:Formula="=MOD(RC[-1],2)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1]=0,&quot;És parell&quot;,&quot;És senar&quot;)"><Data
+      ss:Type="String">És parell</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s24"/>
+    <Cell ss:Index="6" ss:StyleID="s25"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:Index="12">
+    <Cell ss:Index="2" ss:StyleID="s31"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Numeros</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Bin a </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Oct a</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Dec a</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Hex a</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s32"><Data ss:Type="String">Bin</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">1010</Data></Cell>
+    <Cell ss:StyleID="s33" ss:Formula="=RC[-1]"><Data ss:Type="Number">1010</Data></Cell>
+    <Cell ss:StyleID="s34" ss:Formula="=OCT2BIN(R[1]C[-2],4)"><Data
+      ss:Type="String">1100</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=DEC2BIN(R[1]C[-3],4)"><Data
+      ss:Type="String">1110</Data></Cell>
+    <Cell ss:StyleID="s35" ss:Formula="=HEX2BIN(R[1]C[-4])"><Data ss:Type="String">10100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Macro 3</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Oct</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s35" ss:Formula="=BIN2OCT(R[-1]C[-1])"><Data ss:Type="String">12</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=(RC[-2])"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=DEC2OCT(RC[-3])"><Data ss:Type="String">16</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=HEX2OCT(RC[-4])"><Data ss:Type="String">24</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s32"><Data ss:Type="String">Dec </Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1110</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=BIN2DEC(R[-2]C[-1])"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=OCT2DEC(RC[-2])"><Data ss:Type="Number">584</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=RC[-3]"><Data ss:Type="Number">1110</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=HEX2DEC(RC[-4])"><Data ss:Type="Number">4368</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s32"><Data ss:Type="String">Hex</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">1010</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=BIN2HEX(R[-3]C[-1])"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=OCT2HEX(RC[-2])"><Data ss:Type="String">208</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=DEC2HEX(RC[-3])"><Data ss:Type="String">3F2</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=RC[-4]"><Data ss:Type="Number">1010</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:StartPageNumber="1"/>
+    <Header x:Margin="0.78749999999999998" x:Data="&amp;C&amp;A"/>
+    <Footer x:Margin="0.78749999999999998" x:Data="&amp;CPágina &amp;P"/>
+    <PageMargins x:Bottom="1.0249999999999999" x:Left="0.78749999999999998"
+     x:Right="0.78749999999999998" x:Top="1.0249999999999999"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>19</ActiveRow>
+     <ActiveCol>10</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R3C5</Range>
+   <Condition>
+    <Qualifier>Less</Qualifier>
+    <Value1>10</Value1>
+    <Format Style='color:#CC0000;font-weight:400;background:#FFCCCC;mso-pattern:
+     #CCCCFF none'/>
+   </Condition>
+   <Condition>
+    <Qualifier>Equal</Qualifier>
+    <Value1>10</Value1>
+    <Format Style='color:#996600;font-weight:400;background:#FFFFCC;mso-pattern:
+     white none'/>
+   </Condition>
+   <Condition>
+    <Qualifier>Greater</Qualifier>
+    <Value1>10</Value1>
+    <Format Style='color:#006600;font-weight:400;background:#CCFFCC;mso-pattern:
+     #CCFFFF none'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+</Workbook>

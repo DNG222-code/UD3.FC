@@ -1,0 +1,595 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>FACTURA</Title>
+  <Author>Cicles</Author>
+  <LastAuthor>Cicles</LastAuthor>
+  <Revision>1</Revision>
+  <TotalTime>8</TotalTime>
+  <Created>2023-01-17T16:28:56Z</Created>
+  <LastSaved>2023-01-17T17:48:48Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <AppVersion dt:dt="string">12.0000</AppVersion>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>39</Index>
+    <RGB>#F6B26B</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8190</WindowHeight>
+  <WindowWidth>16380</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>500</TabRatio>
+  <MaxChange>0.0001</MaxChange>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9.5" ss:Bold="1"/>
+   <Interior ss:Color="#F6B26B" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9.5" ss:Bold="1"/>
+   <Interior ss:Color="#F6B26B" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s30">
+   <Font ss:FontName="Times New Roman" ss:Color="#000000" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:Indent="8" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="9.5" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:Indent="4" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9.5" ss:Bold="1"/>
+   <Interior ss:Color="#F6B26B" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9.5" ss:Bold="1"/>
+   <Interior ss:Color="#F6B26B" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:Indent="2"
+    ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9.5" ss:Bold="1"/>
+   <Interior ss:Color="#F6B26B" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s37">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:ShrinkToFit="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9.5" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#F6B26B" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s38">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:Indent="4"
+    ss:ShrinkToFit="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="9.5" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#F6B26B" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s39">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial MT" x:Family="Swiss" ss:Size="10.5"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Table 1">
+  <Table ss:ExpandedColumnCount="21" ss:ExpandedRowCount="22" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="39">
+   <Column ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:AutoFitWidth="0" ss:Width="78.75"/>
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="39.75"/>
+   <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="39.75"/>
+   <Column ss:Index="12" ss:AutoFitWidth="0" ss:Width="47.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="50.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="73.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="66.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="13" ss:StyleID="s21"><Data ss:Type="String">Quadern del Professor</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="1" ss:StyleID="s21"><Data ss:Type="String">Alumnat</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s34"><Data ss:Type="String">Pràctiques</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s34"><Data ss:Type="String">Exercicis</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s34"><Data ss:Type="String">Exàmens</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s34"><Data ss:Type="String">Treball</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s35"><Data ss:Type="String">Nota Final</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeDown="1" ss:StyleID="s36"><Data ss:Type="String">Cognoms</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s35"><Data ss:Type="String">Nom</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">P1</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">P2</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">P3</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">E1</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">E2</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">E3</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">X1</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">X2</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">X3</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">A Casa</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">A classe</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:Index="3" ss:MergeAcross="2" ss:StyleID="s37"><Data ss:Type="Number">0.3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s37"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s37"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s38"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Garcia</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Paco</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">4.7</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Ribot</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Dídac</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">5.05</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">González</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Juan</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">4.45</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Silva</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Pablo</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">3.0500000000000003</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Silva</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Tiago</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">3.5</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:Index="21" ss:StyleID="s30"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Fernández</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Santiago</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">4.0999999999999996</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Rodrígez</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Teo</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">2.8499999999999996</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Guedes</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Gonzalo</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">4.6000000000000005</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Ronaldo</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Maria</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">2.2000000000000002</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Fraga</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Adiro</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">3.5999999999999996</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Torres</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Fran</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">4.3</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Vicent</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Ferran</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">5.35</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Moreno</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Mario</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">2.0499999999999998</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Ruíz</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">José</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">6.15</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Torremolinos</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Vicente</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">4.05</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Bolivar</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Luís</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=((R5C3+RC[-10]+RC[-9])/3)*R4C[-11] + ((R5C6+RC[-7]+RC[-6])/3*R4C[-8] + ((R5C9+RC[-4]+RC[-3])/3*R4C[-5] + ((R5C12+RC[-1])/2*R4C[-2])))"><Data
+      ss:Type="Number">5.6000000000000005</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.5">
+    <Cell ss:Index="2" ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:MergeAcross="14" ss:StyleID="s39"><Data ss:Type="String">[1] =((D6+E6+F6)/3)*D5 + ((G6+H6+I6)/3)*G5+((J6+K6+L6)/3)*J5+((M6+N6)/2)*M5</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51181102362204722"/>
+    <Footer x:Margin="0.51181102362204722"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.70000000000000007"
+     x:Right="0.70000000000000007" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>17</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
